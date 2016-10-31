@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+  font-family: "Raleway", open-sans;
+}
+/*header start*/
+.img-class{
+  padding-top: 10px;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-size: 80px;
+  margin: 0;
+}
+.underline{
+  width: 100px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.underline-thin{
+  border: .2px solid black;
+  width: 100px;
+  margin: 0 auto;
+
+}
+/*header end*/
+
+/*green start*/
+.green{
+  margin-top: 100px;
+  background-color: green;
+  padding: 100px 0;
+}
+
+.green .col-md-4{
+  padding: 0 30px;
+  text-align: center;
+}
+/*green end*/
+
+/*about start*/
+
+.about .col-md-5{
+  padding: 100px;
+}
+
+.about .col-md-7 h2{
+  text-align: center;
+  font-size: 40px;
+}
+.about p{
+  padding-top:20px;
+}
+/*about end*/
+
+/*saveWater start*/
+
+.saveWater{
+  padding-top: 100px;
+  background-color: grey;
+}
+
+.saveWater .col-md-6{
+  padding: 0 100px;
+}
+/*saveWater end*/
