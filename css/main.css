@@ -5,6 +5,10 @@
 body, html{
   overflow-x: hidden;
 }
+
+h1, h2, h3, h4, h5, h6, h7{
+  font-weight: 300;
+}
 /*header start*/
 .img-class{
   padding-top: 10px;
@@ -34,7 +38,7 @@ h1{
 /*green start*/
 .green{
   margin-top: 100px;
-  background-color: #8BABB7;
+  background-color: #106C7D;
   padding: 100px 0;
 }
 
@@ -74,7 +78,7 @@ h1{
 
 .saveWater{
   background-color: lightgrey;
-  padding: 100px 0;
+  padding: 150px 0;
 
 }
 
@@ -87,7 +91,7 @@ h1{
 
 .saveMoney{
   background-color: white;
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 
@@ -97,7 +101,7 @@ h1{
 
 .saveTime{
   background-color: lightgrey;
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 /*saveTime end*/
