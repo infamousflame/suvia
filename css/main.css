@@ -30,7 +30,7 @@ h1{
 /*green start*/
 .green{
   margin-top: 100px;
-  background-color: green;
+  background-color: #8BABB7;
   padding: 100px 0;
 }
 
@@ -54,15 +54,3 @@ h1{
   padding-top:20px;
 }
 /*about end*/
-
-/*saveWater start*/
-
-.saveWater{
-  padding-top: 100px;
-  background-color: grey;
-}
-
-.saveWater .col-md-6{
-  padding: 0 100px;
-}
-/*saveWater end*/
