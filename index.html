@@ -12,7 +12,7 @@
 
     <header>
       <div class="img-class">
-        <img src="img/temp.jpg" class="img-responsive">
+        <img src="img/logoCircle.png" class="img-responsive">
       </div>
       <h1>Suvia</h1>
       <hr class="underline">
@@ -24,16 +24,16 @@
           <div class="col-md-10 col-md-offset-1">
             <div class="row">
               <div class="col-md-4">
-                <img src="img/temp.png" class="img-responsive">
+                <a href="#water" class="smooth-scroll"><img src="img/temp.png" class="img-responsive"></a>
                 <h2>Save Water</h2>
                 <p></p>
               </div>
               <div class="col-md-4">
-                <img src="img/temp.png" class="img-responsive">
+                <a href="#time" class="smooth-scroll"><img src="img/temp.png" class="img-responsive"></a>
                 <h2>Save Money</h2>
               </div>
               <div class="col-md-4">
-                <img src="img/temp.png" class="img-responsive">
+                <a href="#money" class="smooth-scroll"><img src="img/temp.png" class="img-responsive"></a>
                 <h2>Save Time</h2>
               </div>
             </div>
@@ -54,8 +54,77 @@
         </div>
       </div>
     </section>
-    
+    <section id="water" class="saveWater">
+      <div class="row">
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-1">
+              <h2>Save Water</h2>
+              <p>The Suvio Water System regulates the water used over the different areas of your lawn. The system makes sure that the censored areas of the lawn are not under watered or over watered by signaling the corresponding sprinkler heads to turn on whenever the moisture in that area is low. It also keeps you from over watering your lawn by turning off the corresponding sprinkler heads that sense a break in the watering limit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="money" class="saveMoney">
+      <div class="row">
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-5 col-md-offset-1"></div>
+            <div class="col-md-6">
+              <h2>Save Money</h2>
+              <p>With Suvio Water system you save money. The system keeps you from over watering areas of your lawn. The system will shut off the sprinkler heads that correspond to the sensors when it senses your lawn has enough water. So by not wastefully over using water, you save money on your water bill.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="time" class="saveTime">
+      <div class="row">
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-1">
+              <h2>Save Time</h2>
+              <p>Suvio Water System is self regulating and operates through our programing. So, you don’t have to check your system, or constantly shut it off or on. Suvio saves you time to do more important things in your day, or have extra time to spend with your family.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <li><a target="_blank" href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          </ul>
+          <p><i class="fa fa-envelope-o" aria-hidden="true"></i> Suvia@gmail.com</p>
+          <p><i class="fa fa-mobile" aria-hidden="true"></i> (559) 246-5660</p>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if( $(this).attr("class")=="smooth-scroll") {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                            $('html,body').animate({
+                                    scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                    }
+                }
+            }
+        });
+    });
+	</script>
   </body>
 </html>
